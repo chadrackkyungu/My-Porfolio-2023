@@ -33,7 +33,7 @@ const Homepage = () => {
     <DarkTheme>
       <Navbar nr={navbarRef} lr={logoRef} />
       <FreelancreIntro />
-      <Services5 />
+      <Services5  />
       <WorksStyle4 />
       <AboutUs5 />
       <FullTestimonials showHead />

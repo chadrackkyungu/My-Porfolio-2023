@@ -9,8 +9,12 @@ const Blogs2 = () => {
         <div className="row">
           <div className="col-lg-4">
             <div className="head md-mb50">
-              <h6 className="back-color"> RECENT ARTICLES </h6>
+              <h6 className="back-color">Get The Latest News</h6>
               <h3>What Our Trending News.</h3>
+              <p>
+                We provide company and finance service for startups and company
+                business.
+              </p>
               <Link href="/blog-grid/blog-grid-dark">
                 <a>
                   <span>More Blog Posts</span>

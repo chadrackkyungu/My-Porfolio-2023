@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Chadrack_code</title>
+        <title>Ch</title>
         <link rel="icon" href="/img/favicon.ico" />
       </Head>
       <Cursor />

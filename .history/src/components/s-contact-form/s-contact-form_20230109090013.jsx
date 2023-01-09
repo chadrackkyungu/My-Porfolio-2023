@@ -100,7 +100,7 @@ const SContactForm = ({ noLine }) => {
                         </div>
                         <div className="col-12">
                           <div className="text-center">
-                            <button type="submit" className="nb butn bord curve mt-30">  <span> Send Message </span> </button>
+                            <button type="submit" className="nb butn bord curve mt-30">  <span> Send Massage </span> </button>
                           </div>
                         </div>
                       </div>

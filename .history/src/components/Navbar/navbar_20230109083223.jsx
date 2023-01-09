@@ -6,7 +6,11 @@ import { handleDropdown, handleMobileDropdown } from "../../common/navbar";
 
 const Navbar = ({ lr, nr, theme }) => {
   return (
-    <nav ref={nr} className={`navbar navbar-expand-lg change ${theme === "themeL" ? "light" : ""}`}>
+    <nav
+      ref={nr}
+      className={`navbar navbar-expand-lg change ${theme === "themeL" ? "light" : ""
+        }`}
+    >
       <div className="container">
         <Link href="/">
           <a className="logo">

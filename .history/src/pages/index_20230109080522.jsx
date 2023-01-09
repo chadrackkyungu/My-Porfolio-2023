@@ -1,10 +1,11 @@
 import React from "react";
-import HomePage from "./homepage/home7-dark"
+import Demos from "./demos/demos";
+import Home "./homepage/home7-light"
 
 const Home = () => {
   return (
     <>
-      <HomePage />
+      <Demos />
     </>
   );
 };

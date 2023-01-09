@@ -9,8 +9,12 @@ const Blogs2 = () => {
         <div className="row">
           <div className="col-lg-4">
             <div className="head md-mb50">
-              <h6 className="back-color"> RECENT ARTICLES </h6>
+              <h6 className="back-color">Get The Latest News</h6>
               <h3>What Our Trending News.</h3>
+              <p>
+                We provide company and finance service for startups and company
+                business.
+              </p>
               <Link href="/blog-grid/blog-grid-dark">
                 <a>
                   <span>More Blog Posts</span>
@@ -26,7 +30,7 @@ const Blogs2 = () => {
               <div className="cont valign">
                 <div>
                   <div className="info">
-                    <Link href="/blog-grid/blog-grid-dark">
+                    <Link href="/blog/blog-dark">
                       <a className="date">
                         <span>
                           <i>06</i> August
@@ -34,9 +38,9 @@ const Blogs2 = () => {
                       </a>
                     </Link>
                     <span>/</span>
-                    <Link href="/blog-grid/blog-grid-dark">
+                    <Link href="/blog/blog-dark">
                       <a className="tag">
-                        <span>Chadrack</span>
+                        <span>WordPress</span>
                       </a>
                     </Link>
                   </div>
@@ -57,7 +61,7 @@ const Blogs2 = () => {
               <div className="cont valign">
                 <div>
                   <div className="info">
-                    <Link href="/blog-grid/blog-grid-dark">
+                    <Link href="/blog/blog-dark">
                       <a className="date">
                         <span>
                           <i>06</i> August
@@ -65,9 +69,9 @@ const Blogs2 = () => {
                       </a>
                     </Link>
                     <span>/</span>
-                    <Link href="/blog-grid/blog-grid-dark">
+                    <Link href="/blog/blog-dark">
                       <a className="tag">
-                        <span>Chadrack</span>
+                        <span>WordPress</span>
                       </a>
                     </Link>
                   </div>

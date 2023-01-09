@@ -22,9 +22,9 @@ const SContactForm = ({ noLine }) => {
               <h6 className="wow fadeIn" data-wow-delay=".5s">
                 Contact Us
               </h6>
-              {/* <h3 className="wow color-font">
+              <h3 className="wow color-font">
                 Let’s Get in Touch And Make Magic Together.
-              </h3> */}
+              </h3>
             </div>
           </div>
         </div>
@@ -100,7 +100,12 @@ const SContactForm = ({ noLine }) => {
                         </div>
                         <div className="col-12">
                           <div className="text-center">
-                            <button type="submit" className="nb butn bord curve mt-30">  <span> Send Message </span> </button>
+                            <button
+                              type="submit"
+                              className="nb butn bord curve mt-30"
+                            >
+                              <span>Send Massege</span>
+                            </button>
                           </div>
                         </div>
                       </div>

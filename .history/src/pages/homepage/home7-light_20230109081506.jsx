@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../../components/Navbar/navbar";
 import Footer from "../../components/Footer/footer";
-import DarkTheme from "../../layouts/Dark";
+import LightTheme from "../../layouts/Light";
 import FreelancreIntro from "../../components/Freelancre-intro/freelancre-intro";
 import Services5 from "../../components/Services5/services5";
 import WorksStyle4 from "../../components/Works-style4/works-style4";
@@ -30,8 +30,8 @@ const Homepage = () => {
     });
   }, [navbarRef]);
   return (
-    <DarkTheme>
-      <Navbar nr={navbarRef} lr={logoRef} />
+    <LightTheme>
+      <Navbar nr={navbarRef} lr={logoRef} theme="themeL" />
       <FreelancreIntro />
       <Services5 />
       <WorksStyle4 />
@@ -40,7 +40,7 @@ const Homepage = () => {
       <Blogs2 />
       <SContactForm noLine />
       <Footer />
-    </DarkTheme>
+    </LightTheme>
   );
 };
 
