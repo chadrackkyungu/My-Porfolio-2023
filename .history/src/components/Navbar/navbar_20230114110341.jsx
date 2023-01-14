@@ -11,7 +11,7 @@ const Navbar = ({ lr, nr, theme }) => {
         <Link href="/">
           <a className="logo">
             {/* {theme ? ( theme === "themeL" ? ( <img ref={lr} src={appData.darkLogo} alt="logo" /> ) : ( <img ref={lr} src={appData.lightLogo} alt="logo" />) ) : (  <img ref={lr} src={appData.lightLogo} alt="logo" /> )} */}
-            <h5>CK(code) </h5>
+            <h4>CK code</h4>
           </a>
         </Link>
 

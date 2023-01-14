@@ -50,10 +50,7 @@ const WorksStyle4 = () => {
                   <h6> Loan Finances  </h6>
                   <p> Figma design dashboard </p>
                 </div>
-                <div className="mb-2 d-flex justify-content-between">
-                  <Badge color="primary"> New </Badge>
-                  <small className="text-muted">2023-05-09</small>
-                </div>
+                <Badge color="primary"> New </Badge>
                 <Link href={`/project-details2/project-details2-dark`}>
                   <a className="rota">
                     <img src="/img/portfolio/freelancer/1.jpg" alt="image" />
@@ -80,10 +77,6 @@ const WorksStyle4 = () => {
                   <h6> Giantech Solar panel </h6>
                   <p>  Landing page solar company website </p>
                 </div>
-                <div className="mb-2 d-flex justify-content-between">
-                  <Badge color="primary"> New </Badge>
-                  <small className="text-muted">2023-05-09</small>
-                </div>
                 <Link href={`/project-details2/project-details2-dark`}>
                   <a className="rota">
                     <img src="/img/portfolio/freelancer/2.jpg" alt="image" />
@@ -106,10 +99,6 @@ const WorksStyle4 = () => {
                 <div className="cont">
                   <h6> Tenant management </h6>
                   <p> Mobile app for managing a unit </p>
-                </div>
-                <div className="mb-2 d-flex justify-content-between">
-                  <Badge color="primary"> New </Badge>
-                  <small className="text-muted">2023-05-09</small>
                 </div>
                 <Link href={`/project-details2/project-details2-dark`}>
                   <a className="rota">

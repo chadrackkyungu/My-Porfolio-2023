@@ -1,11 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import { Badge, Button } from 'reactstrap';
 import Link from "next/link";
 import initIsotope from "../../common/initIsotope";
-import { FaReact, FaNodeJs, FaPhp, FaLaravel } from 'react-icons/fa';
-import { SiNextdotjs, SiExpress } from 'react-icons/si';
-import { BsBootstrap } from 'react-icons/bs';
+import { FaReact } from 'react-icons/fa';
 
 const WorksStyle4 = () => {
   React.useEffect(() => {
@@ -50,23 +47,14 @@ const WorksStyle4 = () => {
                   <h6> Loan Finances  </h6>
                   <p> Figma design dashboard </p>
                 </div>
-                <div className="mb-2 d-flex justify-content-between">
-                  <Badge color="primary"> New </Badge>
-                  <small className="text-muted">2023-05-09</small>
-                </div>
                 <Link href={`/project-details2/project-details2-dark`}>
                   <a className="rota">
                     <img src="/img/portfolio/freelancer/1.jpg" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
-                <small className="text-muted">Technology used</small>
-                <div className="mt-2 d-flex justify-content-between">
-                  <Button color="info"> <FaReact />  </Button>
-                  <Button color="primary"> <BsBootstrap />  </Button>
-                  <Button color="warning"> <SiNextdotjs />  </Button>
-                  <Button color="success"> <FaNodeJs />  </Button>
-                  <Button color="dark"> <SiExpress />  </Button>
+                <div className="mt-2">
+                  <span className="btn btn-primary"> <FaReact />  </span>
                 </div>
                 <div className="tags">
                   <span>  <Link href="/works2/works2-dark">View project details</Link> </span>
@@ -80,21 +68,12 @@ const WorksStyle4 = () => {
                   <h6> Giantech Solar panel </h6>
                   <p>  Landing page solar company website </p>
                 </div>
-                <div className="mb-2 d-flex justify-content-between">
-                  <Badge color="primary"> New </Badge>
-                  <small className="text-muted">2023-05-09</small>
-                </div>
                 <Link href={`/project-details2/project-details2-dark`}>
                   <a className="rota">
                     <img src="/img/portfolio/freelancer/2.jpg" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
-                <small className="text-muted">Technology used</small>
-                <div className="mt-2 d-flex">
-                  <Button color="info"> <FaReact />  </Button>
-                  <Button color="primary mx-2"> <BsBootstrap />  </Button>
-                </div>
                 <div className="tags">
                   <span>  <Link href="/works2/works2-dark">View project details</Link>  </span>
                 </div>
@@ -107,23 +86,12 @@ const WorksStyle4 = () => {
                   <h6> Tenant management </h6>
                   <p> Mobile app for managing a unit </p>
                 </div>
-                <div className="mb-2 d-flex justify-content-between">
-                  <Badge color="primary"> New </Badge>
-                  <small className="text-muted">2023-05-09</small>
-                </div>
                 <Link href={`/project-details2/project-details2-dark`}>
                   <a className="rota">
                     <img src="/img/portfolio/freelancer/2.jpg" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
-                <small className="text-muted">Technology used</small>
-                <div className="mt-2 d-flex justify-content-between">
-                  <Button color="info"> <FaReact />  </Button>
-                  <Button color="primary"> <BsBootstrap />  </Button>
-                  <Button color="warning"> <FaPhp />  </Button>
-                  <Button color="success"> <FaLaravel />  </Button>
-                </div>
                 <div className="tags">
                   <span>  <Link href="/works2/works2-dark">View project details</Link>  </span>
                 </div>

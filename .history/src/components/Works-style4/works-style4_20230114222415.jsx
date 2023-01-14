@@ -1,11 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import { Badge, Button } from 'reactstrap';
 import Link from "next/link";
 import initIsotope from "../../common/initIsotope";
-import { FaReact, FaNodeJs, FaPhp, FaLaravel } from 'react-icons/fa';
-import { SiNextdotjs, SiExpress } from 'react-icons/si';
-import { BsBootstrap } from 'react-icons/bs';
 
 const WorksStyle4 = () => {
   React.useEffect(() => {
@@ -35,24 +31,18 @@ const WorksStyle4 = () => {
           <div className="filtering col-12">
             <div className="filter wow fadeIn" data-wow-delay=".5s">
               <span data-filter="*" className="active">  All </span>
-              <span data-filter=".web">Web application</span>
               <span data-filter=".brand">Website design & UI/UX</span>
+              <span data-filter=".web">Web application</span>
               <span data-filter=".graphic">Mobile application</span>
             </div>
           </div>
 
           <div className="gallery full-width">
-
-            {/* <div className="col-md-4 items brand  lg-mr wow fadeInUp" data-wow-delay=".4s"> */}
-            <div className="col-md-4 items brand wow fadeInUp" data-wow-delay=".4s">
+            <div className="col-md-6 items brand  lg-mr wow fadeInUp" data-wow-delay=".4s">
               <div className="item-img">
                 <div className="cont">
-                  <h6> Loan Finances  </h6>
-                  <p> Figma design dashboard </p>
-                </div>
-                <div className="mb-2 d-flex justify-content-between">
-                  <Badge color="primary"> New </Badge>
-                  <small className="text-muted">2023-05-09</small>
+                  <h6> Website design and UI / UX</h6>
+                  <p>Ui / Ux website, web applications, and mobile app design</p>
                 </div>
                 <Link href={`/project-details2/project-details2-dark`}>
                   <a className="rota">
@@ -60,29 +50,18 @@ const WorksStyle4 = () => {
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
-                <small className="text-muted">Technology used</small>
-                <div className="mt-2 d-flex justify-content-between">
-                  <Button color="info"> <FaReact />  </Button>
-                  <Button color="primary"> <BsBootstrap />  </Button>
-                  <Button color="warning"> <SiNextdotjs />  </Button>
-                  <Button color="success"> <FaNodeJs />  </Button>
-                  <Button color="dark"> <SiExpress />  </Button>
-                </div>
                 <div className="tags">
+                  <span> <Link href="https://github.com/chadrackkyungu">Get it on Github</Link>  </span>
                   <span>  <Link href="/works2/works2-dark">View project details</Link> </span>
                 </div>
               </div>
             </div>
 
-            <div className="col-md-4 items web wow fadeInUp" data-wow-delay=".4s">
+            <div className="col-md-6 items web wow fadeInUp" data-wow-delay=".4s">
               <div className="item-img">
                 <div className="cont">
-                  <h6> Giantech Solar panel </h6>
-                  <p>  Landing page solar company website </p>
-                </div>
-                <div className="mb-2 d-flex justify-content-between">
-                  <Badge color="primary"> New </Badge>
-                  <small className="text-muted">2023-05-09</small>
+                  <h6>Creative Mobile App</h6>
+                  <p>Ui / Ux creative mobile app design</p>
                 </div>
                 <Link href={`/project-details2/project-details2-dark`}>
                   <a className="rota">
@@ -90,26 +69,18 @@ const WorksStyle4 = () => {
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
-                <small className="text-muted">Technology used</small>
-                <div className="mt-2 d-flex">
-                  <Button color="info"> <FaReact />  </Button>
-                  <Button color="primary mx-2"> <BsBootstrap />  </Button>
-                </div>
                 <div className="tags">
+                  <span> <Link href="https://github.com/chadrackkyungu">Get it on Github</Link>  </span>
                   <span>  <Link href="/works2/works2-dark">View project details</Link>  </span>
                 </div>
               </div>
             </div>
 
-            <div className="col-md-4 items graphic  wow fadeInUp" data-wow-delay=".4s">
+            <div className="col-md-6 items graphic  wow fadeInUp" data-wow-delay=".4s">
               <div className="item-img">
                 <div className="cont">
-                  <h6> Tenant management </h6>
-                  <p> Mobile app for managing a unit </p>
-                </div>
-                <div className="mb-2 d-flex justify-content-between">
-                  <Badge color="primary"> New </Badge>
-                  <small className="text-muted">2023-05-09</small>
+                  <h6>Creative Mobile App</h6>
+                  <p>Ui / Ux creative mobile app design</p>
                 </div>
                 <Link href={`/project-details2/project-details2-dark`}>
                   <a className="rota">
@@ -117,14 +88,8 @@ const WorksStyle4 = () => {
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
-                <small className="text-muted">Technology used</small>
-                <div className="mt-2 d-flex justify-content-between">
-                  <Button color="info"> <FaReact />  </Button>
-                  <Button color="primary"> <BsBootstrap />  </Button>
-                  <Button color="warning"> <FaPhp />  </Button>
-                  <Button color="success"> <FaLaravel />  </Button>
-                </div>
                 <div className="tags">
+                  <span> <Link href="https://github.com/chadrackkyungu">Get it on Github</Link>  </span>
                   <span>  <Link href="/works2/works2-dark">View project details</Link>  </span>
                 </div>
               </div>
