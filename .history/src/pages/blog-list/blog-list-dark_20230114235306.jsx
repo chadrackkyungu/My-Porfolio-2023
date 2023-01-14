@@ -1,12 +1,12 @@
 import React from "react";
 import blog2Data from "../../data/blog2.json";
-import LightTheme from "../../layouts/Light";
+import DarkTheme from "../../layouts/Dark";
 import Navbar from "../../components/Navbar/navbar";
-// import BlogListed from "../../components/Blog-list/blog-list";
+import BlogListed from "../../components/Blog-list/blog-list";
 import PageHeader from "../../components/Page-header/page-header";
 import Footer from "../../components/Footer/footer";
 
-const BlogListLight = () => {
+const BlogListDark = () => {
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
 
@@ -27,14 +27,14 @@ const BlogListLight = () => {
     });
   }, [navbarRef]);
   return (
-    <LightTheme>
+    <DarkTheme>
       <div className="circle-bg">
         <div className="circle-color fixed">
           <div className="gradient-circle"></div>
           <div className="gradient-circle two"></div>
         </div>
       </div>
-      <Navbar nr={navbarRef} lr={logoRef} theme="themeL" />
+      <Navbar nr={navbarRef} lr={logoRef} />
       <PageHeader
         className="sub-bg"
         title="Our News."
@@ -42,8 +42,8 @@ const BlogListLight = () => {
       />
       {/* <BlogListed blogs={blog2Data} /> */}
       <Footer />
-    </LightTheme>
+    </DarkTheme>
   );
 };
 
-export default BlogListLight;
+export default BlogListDark;

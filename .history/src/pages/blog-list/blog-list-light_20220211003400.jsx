@@ -2,7 +2,7 @@ import React from "react";
 import blog2Data from "../../data/blog2.json";
 import LightTheme from "../../layouts/Light";
 import Navbar from "../../components/Navbar/navbar";
-// import BlogListed from "../../components/Blog-list/blog-list";
+import BlogListed from "../../components/Blog-list/blog-list";
 import PageHeader from "../../components/Page-header/page-header";
 import Footer from "../../components/Footer/footer";
 
@@ -40,7 +40,7 @@ const BlogListLight = () => {
         title="Our News."
         paragraph="All the most current news and events of our creative team."
       />
-      {/* <BlogListed blogs={blog2Data} /> */}
+      <BlogListed blogs={blog2Data} />
       <Footer />
     </LightTheme>
   );
