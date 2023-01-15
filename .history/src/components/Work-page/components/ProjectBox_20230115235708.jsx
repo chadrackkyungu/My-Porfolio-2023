@@ -1,8 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Link from "next/link";
-import initIsotope from "../../../common/initIsotope";
-
+import initIsotope from "../../common/initIsotope";
 
 const ProjectBox = ({ grid, hideFilter, filterPosition }) => {
     React.useEffect(() => {
