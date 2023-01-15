@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../../components/Navbar/navbar";
-import Footer from "../../components/Footer/footer";
+import Footer from "../../components/Footer/Index";
 import DarkTheme from "../../layouts/Dark";
 import ProjectDetails2Header from "../../components/Project-details2-header/project-details2-header";
 import ProjectDate from "../../data/project-details2.json";
