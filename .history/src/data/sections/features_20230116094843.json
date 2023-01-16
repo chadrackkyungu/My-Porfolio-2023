@@ -1,0 +1,25 @@
+[{
+        "id": 1,
+        "icon": "pe-7s-global",
+        "title": "UI/UX design",
+        "content": "I offer the design service that's tailored to each individual client's needs. My process begins with understanding the goals and requirements of your project, and then crafting a design that achieves those objectives while incorporating modern trends and best practices."
+    },
+    {
+        "id": 2,
+        "icon": "pe-7s-monitor",
+        "title": "Wesites design",
+        "content": "I specialize in developing websites that are fast, secure and user-friendly. My process starts with understanding the unique needs and objectives of each client and then develope, and testing a bespoke solution that meets the requirements. I'm highly experienced in web development, and strive to stay up-to-date with the latest technologies and trends in the industry. My process includes optimizing for search engines and ensuring compatibility across multiple platforms and devices. My priority is always the highest level of customer satisfaction, and I work hard to provide my clients with timely and quality work."
+    },
+    {
+        "id": 3,
+        "icon": "pe-7s-browser",
+        "title": "Web apps",
+        "content": "I use figma to do design for my clients"
+    },
+    {
+        "id": 4,
+        "icon": "pe-7s-phone",
+        "title": "Mobile apps",
+        "content": "I use figma to do design for my clients"
+    }
+]

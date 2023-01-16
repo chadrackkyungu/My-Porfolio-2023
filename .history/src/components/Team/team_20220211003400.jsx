@@ -50,10 +50,11 @@ const Team = () => {
                     {teamsDate.teams.slice(0, 2).map((team, index) => (
                       <div key={team.id}>
                         <div
-                          className={`img sizxl ${index + 1 != teamsDate.teams.slice(0, 2).length
+                          className={`img sizxl ${
+                            index + 1 != teamsDate.teams.slice(0, 2).length
                               ? "mb-30"
                               : null
-                            }`}
+                          }`}
                           data-tooltip-tit={team.title}
                           data-tooltip-sub={team.sub}
                         >
@@ -68,10 +69,11 @@ const Team = () => {
                     {teamsDate.teams.slice(2, 4).map((team, index) => (
                       <div key={team.id}>
                         <div
-                          className={`img sizxl ${index + 1 != teamsDate.teams.slice(2, 4).length
+                          className={`img sizxl ${
+                            index + 1 != teamsDate.teams.slice(2, 4).length
                               ? "mb-30"
                               : null
-                            }`}
+                          }`}
                           data-tooltip-tit={team.title}
                           data-tooltip-sub={team.sub}
                         >

@@ -1,0 +1,25 @@
+[{
+        "id": 1,
+        "icon": "pe-7s-global",
+        "title": "UI/UX design",
+        "content": "I use figma to do design for my clients"
+    },
+    {
+        "id": 2,
+        "icon": "pe-7s-monitor",
+        "title": "Wesites design",
+        "content": "I use figma to do design for my clients"
+    },
+    {
+        "id": 3,
+        "icon": "pe-7s-browser",
+        "title": "Web apps",
+        "content": "I use figma to do design for my clients"
+    },
+    {
+        "id": 4,
+        "icon": "pe-7s-phone",
+        "title": "Mobile apps",
+        "content": "I use figma to do design for my clients"
+    }
+]

@@ -1,0 +1,25 @@
+[{
+        "id": 1,
+        "icon": "pe-7s-global",
+        "title": "UI/UX design",
+        "content": "I offer both UI and UX design services that are tailored to each individual client's needs. My process begins with understanding the goals and requirements of your project, and then crafting a design that achieves those objectives while incorporating modern trends and best practices"
+    },
+    {
+        "id": 2,
+        "icon": "pe-7s-monitor",
+        "title": "Wesites design",
+        "content": "I use figma to do design for my clients"
+    },
+    {
+        "id": 3,
+        "icon": "pe-7s-browser",
+        "title": "Web apps",
+        "content": "I use figma to do design for my clients"
+    },
+    {
+        "id": 4,
+        "icon": "pe-7s-phone",
+        "title": "Mobile apps",
+        "content": "I use figma to do design for my clients"
+    }
+]

@@ -9,7 +9,7 @@ import Footer from "../../components/Footer/Index";
 import PagesHeader from "../../components/Pages-header";
 import AboutIntro from "../../components/About-intro";
 import DarkTheme from "../../layouts/Dark";
-import DevTeam from "../../components/Dev-team/Index";
+import Team from "../../components/Team/team";
 import MinimalArea from "../../components/Minimal-Area/minimal-area";
 import AboutMe from "../../components/About-header/Index";
 
@@ -44,7 +44,7 @@ const About = () => {
       {/* <SkillsCircle from="aboutPage" /> */}
       {/* <Team /> */}
       <MinimalArea />
-      <DevTeam />
+      <Team />
       {/* <Clients theme="dark" /> */}
       <CallToAction />
       <Footer />

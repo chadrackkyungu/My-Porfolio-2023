@@ -17,15 +17,23 @@ const CallToAction = ({ img }) => {
                   Talk to us
                 </h6>
                 <h2 className="wow words chars splitting" data-splitting>
-                  about your <br /> <b className="back-color"> project</b>.
+                  about your <br /> <b className="back-color"> project</b>
+                  .
                 </h2>
               </Split>
             </div>
           </div>
 
           <div className="col-md-4 col-lg-3 valign">
-            <Link href={`/contact/contact-dark/`} >
-              <a className="butn bord color curve wow fadeInUp" data-wow-delay=".5s" > <span>Get In Touch</span></a>
+            <Link
+              href={`/contact/contact-dark`}
+            >
+              <a
+                className="butn bord curve wow fadeInUp"
+                data-wow-delay=".5s"
+              >
+                <span>Get In Touch</span>
+              </a>
             </Link>
           </div>
         </div>

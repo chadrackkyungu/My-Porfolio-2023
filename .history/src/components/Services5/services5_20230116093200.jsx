@@ -11,14 +11,14 @@ const Services5 = () => {
               <h6 className="wow fadeIn" data-wow-delay=".5s">
                 My Services
               </h6>
-              <h5 className="wow color-font"> What i'm good at </h5>
+              <h3 className="wow color-font"> What i do </h3>
             </div>
           </div>
         </div>
         <div className="row">
           {featuresData.map((item, index) => (
             <div
-              className="col-lg-6 wow fadeInLeft"
+              className="col-lg-3 wow fadeInLeft"
               data-wow-delay={
                 index == 0
                   ? ".5s"
@@ -32,12 +32,10 @@ const Services5 = () => {
             >
               <div className="item-box no-curve">
                 <div>
-                  <div className="d-flex align-items-center">
-                    <span className={`icon color-font ${item.icon}`}></span>
-                    <h6>{item.title}</h6>
-                  </div>
+                  <span className={`icon color-font ${item.icon}`}></span>
                   <div className="cont">
-                    <small className="text-muted">{item.content}</small>
+                    <h6>{item.title}</h6>
+                    <small>{item.content}</small>
                   </div>
                 </div>
               </div>

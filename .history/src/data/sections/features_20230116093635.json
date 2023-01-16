@@ -1,0 +1,25 @@
+[{
+        "id": 1,
+        "icon": "pe-7s-global",
+        "title": "UI/UX design",
+        "content": " I focus on crafting user-friendly, visually appealing designs that are optimized for both search engines and multiple platforms and devices. My process includes understanding the goals and requirements of the project, incorporating modern trends and best practices, and testing and fine-tuning the design for maximum usability. I also understand the importance of timelines and strive to deliver quality results in a timely and professional manner. My track record for producing successful outcomes that have satisfied my clients speaks for itself, and I'm confident I can provide the same for you. Contact me today to learn more about my services and discuss the possibilities for your project."
+    },
+    {
+        "id": 2,
+        "icon": "pe-7s-monitor",
+        "title": "Wesites design",
+        "content": "I use figma to do design for my clients"
+    },
+    {
+        "id": 3,
+        "icon": "pe-7s-browser",
+        "title": "Web apps",
+        "content": "I use figma to do design for my clients"
+    },
+    {
+        "id": 4,
+        "icon": "pe-7s-phone",
+        "title": "Mobile apps",
+        "content": "I use figma to do design for my clients"
+    }
+]

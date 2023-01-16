@@ -32,9 +32,9 @@ const Services5 = () => {
             >
               <div className="item-box no-curve">
                 <div>
-                  <div className="d-flex align-items-center">
-                    <span className={`icon color-font ${item.icon}`}></span>
+                  <div>
                     <h6>{item.title}</h6>
+                    <span className={`icon color-font ${item.icon}`}></span>
                   </div>
                   <div className="cont">
                     <small className="text-muted">{item.content}</small>

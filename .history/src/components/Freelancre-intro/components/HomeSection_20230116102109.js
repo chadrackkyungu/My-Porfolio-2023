@@ -15,7 +15,7 @@ const FreelancreIntro = () => {
                     <div className="col-lg-8 valign">
                         <div className="cont">
                             <h4 className="cd-headline clip">
-                                Hello 👋 , my name is <span className="color-font">Chadrack   </span>💻, and I'm an experienced full-stack <span className="color-font  fw-700">JS</span> developer specialized in combining expert front-end and back-end solutions in order to bring top quality 👉
+                                Hello 👋 , my name is <span className="color-font">Chadrack   </span>💻, and I'm an experienced full-stack <span className="color-font">JS</span> developer specialized in combining expert front-end and back-end solutions in order to bring top quality
                                 <span
                                     style={{ fontSize: "35px", lineHeight: "49px" }}
                                     className="cd-words-wrapper"
@@ -24,10 +24,10 @@ const FreelancreIntro = () => {
                                         options={{
                                             wrapperClassName: "color-font fw-600",
                                             strings: [
-                                                "UI/UX design",
-                                                "Websites design",
+                                                "UI/UX",
+                                                "websites",
                                                 "Web Apps",
-                                                "Mobile Apps",
+                                                "and mobile Apps",
                                             ],
                                             autoStart: true,
                                             loop: true,

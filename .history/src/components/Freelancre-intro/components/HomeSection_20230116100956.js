@@ -14,8 +14,8 @@ const FreelancreIntro = () => {
                     </div>
                     <div className="col-lg-8 valign">
                         <div className="cont">
-                            <h4 className="cd-headline clip">
-                                Hello 👋 , my name is <span className="color-font">Chadrack   </span>💻, and I'm an experienced full-stack <span className="color-font  fw-700">JS</span> developer specialized in combining expert front-end and back-end solutions in order to bring top quality 👉
+                            <h6 className="cd-headline clip">
+                                Hello, my name is Chadrack, and I'm an experienced full-stack developer who specializes in combining expert front-end and back-end solutions in order to bring powerful, dependable websites and apps to life. I have years of experience creating projects for major brands and companies of all sizes, and have an eye for creating intuitive and user-friendly designs. Aside from my technical expertise, I'm also passionate about sustainability and developing in a way that reduces the carbon footprint of the production process. I'm an advocate for socially responsible development practices, and have extensive experience in creating projects that promote sustainability and minimize energy consumption. I believe in using technology for good, and strive to make positive impacts in the world through my work.
                                 <span
                                     style={{ fontSize: "35px", lineHeight: "49px" }}
                                     className="cd-words-wrapper"
@@ -24,10 +24,9 @@ const FreelancreIntro = () => {
                                         options={{
                                             wrapperClassName: "color-font fw-600",
                                             strings: [
-                                                "UI/UX design",
-                                                "Websites design",
-                                                "Web Apps",
                                                 "Mobile Apps",
+                                                "Landing Pages",
+                                                "Awesome Design",
                                             ],
                                             autoStart: true,
                                             loop: true,
@@ -38,7 +37,7 @@ const FreelancreIntro = () => {
                                         }}
                                     />
                                 </span>
-                            </h4>
+                            </h6>
                         </div>
                     </div>
                 </div>

@@ -30,7 +30,7 @@ const MinimalArea = () => {
                 <span className="color-font"> Chadrack Kyungu  </span> is a full-stack developer with over <span className="color-font"> 3 years </span> of experience in the tech industry. I'm specialized in creating user-friendly, reliable and secure websites, web applications and mobile applications, while developing with an eye towards quality of the output and high standard code. Throughout my career, I have worked with some of the biggest Freelancing platform in the world like <span className="color-font">  Upwork </span>, as well as numerous smaller businesses and startup company like  <span className="color-font"> TNGSolutions </span>  for a year and half. I'm passionate about staying ahead of the curve when it comes to the latest technologies and trends, allowing me to deliver results that meet the highest standards of quality.
               </p>
 
-              <ul className="feat mt-60">
+              <ul className="feat mt-30">
                 <li className="wow fadeInUp" data-wow-delay=".2s">
                   <h6 className="color-font">
                     <span>1</span>  My Quality as a project manager & team leader
