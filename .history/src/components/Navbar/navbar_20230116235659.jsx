@@ -11,7 +11,7 @@ const Navbar = ({ lr, nr, theme }) => {
         <Link href="/">
           {/* <a className="logo"> */}
           {/* {theme ? ( theme === "themeL" ? ( <img ref={lr} src={appData.darkLogo} alt="logo" /> ) : ( <img ref={lr} src={appData.lightLogo} alt="logo" />) ) : (  <img ref={lr} src={appData.lightLogo} alt="logo" /> )} */}
-          <h5 className="fw-700 color-font  logo_mobile_pading">CK(code) </h5>
+          <h5 className="fw-700 color-font  mx-50">CK(code) </h5>
           {/* </a> */}
         </Link>
 
