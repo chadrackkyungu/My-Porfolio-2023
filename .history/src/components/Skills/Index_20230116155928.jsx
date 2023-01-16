@@ -15,9 +15,9 @@ const AboutUs5 = () => {
       <div className="container-fluid">
         <div className="sec-head  text-center">
           <h6 className="wow fadeIn" data-wow-delay=".5s">
-            Skills
+            Skills level
           </h6>
-          <h5 className="wow color-font"> Skill Progress</h5>
+          <h5 className="wow color-font"> Checkout some of  my past project </h5>
         </div>
         <div className="row">
           <div className="col-lg-6 img md-mb50">

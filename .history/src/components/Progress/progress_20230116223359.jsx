@@ -11,44 +11,43 @@ const Progress = () => {
                 <span className="left"></span> Working Process
                 <span className="right"></span>
               </h6>
-              <h5 className="color-font"> The 4 Steps to my successful Projects </h5>
+              <h5 className="color-font">4 Step to Complete Projects</h5>
             </div>
           </div>
         </div>
         <div className="row">
           <div className="col-lg-3">
             <div className="item text-center md-mb50">
-              <h5>  1. Planning </h5>
-              <span className="color-font" my-4>Research & Ideation</span>
+              <h5>step 01 Planning</h5>
               <p>
-                In this step i define the scope of the application and create a plan around how to achieve it.
+                In this phase i define the scope of the application and create a plan around how to achieve it.
               </p>
             </div>
           </div>
           <div className="col-lg-3">
             <div className="item text-center md-mb50">
-              <h5> 2. Designing </h5>
-              <span className="color-font" my-4> Design & Prototyping</span>
+              <h5>Step 02</h5>
               <p>
-                This is the step where i create user interfaces and user experience features that are attractive and engaging to both desktop and mobile users
+                Sorem ipsum dolor sit amet consectetur adipiscing elit seddo
+                eiusmod tempor incididunt
               </p>
             </div>
           </div>
           <div className="col-lg-3">
             <div className="item text-center">
-              <h5>3. Developing </h5>
-              <span className="color-font" my-4> Development & Testing  </span>
+              <h5>Step 03</h5>
               <p>
-                This is the step where i actually build the application according to the plan created in the first step
+                Sorem ipsum dolor sit amet consectetur adipiscing elit seddo
+                eiusmod tempor incididunt
               </p>
             </div>
           </div>
           <div className="col-lg-3">
             <div className="item text-center">
-              <h5>4. Launching</h5>
-              <span className="color-font" my-4>Deployment</span>
+              <h5>Step 04</h5>
               <p>
-                This is the final step where the application is tested, deployed to a hosting service and made available to users.
+                Sorem ipsum dolor sit amet consectetur adipiscing elit seddo
+                eiusmod tempor incididunt
               </p>
             </div>
           </div>

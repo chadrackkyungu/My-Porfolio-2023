@@ -41,7 +41,7 @@ const ProjectBox = ({ grid, hideFilter, filterPosition }) => {
                                 : filterPosition === "left"
                                     ? "text-left"
                                     : "text-right"
-                                } col-12  d-flex justify-content-center`}
+                                } col-12`}
                         >
                             <div className="filter">
                                 <span data-filter="*" className="active">

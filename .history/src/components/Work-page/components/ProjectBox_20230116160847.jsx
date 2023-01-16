@@ -2,7 +2,6 @@
 import React from "react";
 import Link from "next/link";
 import initIsotope from "../../../common/initIsotope";
-import { Badge } from "react-bootstrap";
 
 
 const ProjectBox = ({ grid, hideFilter, filterPosition }) => {
@@ -41,7 +40,7 @@ const ProjectBox = ({ grid, hideFilter, filterPosition }) => {
                                 : filterPosition === "left"
                                     ? "text-left"
                                     : "text-right"
-                                } col-12  d-flex justify-content-center`}
+                                } col-12`}
                         >
                             <div className="filter">
                                 <span data-filter="*" className="active">
@@ -55,80 +54,6 @@ const ProjectBox = ({ grid, hideFilter, filterPosition }) => {
                     )}
 
                     <div className="gallery full-width">
-                        <div className="col-md-4 items brand wow fadeInUp" data-wow-delay=".4s">
-                            <div className="item-img">
-                                <div className="cont">
-                                    <h6> Loan Finances  </h6>
-                                    <p> Figma design dashboard </p>
-                                </div>
-                                <div className="mb-2 d-flex justify-content-between">
-                                    <Badge color="primary"> New </Badge>
-                                    <small className="text-muted">2023-05-09</small>
-                                </div>
-                                <Link href={`/project-details2/project-details2-dark`}>
-                                    <a className="rota">
-                                        <img src="/img/portfolio/freelancer/1.jpg" alt="image" />
-                                        <div className="item-img-overlay"></div>
-                                    </a>
-                                </Link>
-                                <div className="tags">
-                                    <span>  <Link href="/works2/works2-dark">View project details</Link> </span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-md-4 items web wow fadeInUp" data-wow-delay=".4s">
-                            <div className="item-img">
-                                <div className="cont">
-                                    <h6> Giantech Solar panel </h6>
-                                    <p>  Landing page solar company website </p>
-                                </div>
-                                <div className="mb-2 d-flex justify-content-between">
-                                    <Badge color="primary"> New </Badge>
-                                    <small className="text-muted">2023-05-09</small>
-                                </div>
-                                <Link href={`/project-details2/project-details2-dark`}>
-                                    <a className="rota">
-                                        <img src="/img/portfolio/freelancer/2.jpg" alt="image" />
-                                        <div className="item-img-overlay"></div>
-                                    </a>
-                                </Link>
-                                <div className="tags">
-                                    <span>  <Link href="/works2/works2-dark">View project details</Link>  </span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-md-4 items graphic  wow fadeInUp" data-wow-delay=".4s">
-                            <div className="item-img">
-                                <div className="cont">
-                                    <h6> Tenant management </h6>
-                                    <p> Mobile app for managing a unit </p>
-                                </div>
-                                <div className="mb-2 d-flex justify-content-between">
-                                    <Badge color="primary"> New </Badge>
-                                    <small className="text-muted">2023-05-09</small>
-                                </div>
-                                <Link href={`/project-details2/project-details2-dark`}>
-                                    <a className="rota">
-                                        <img src="/img/portfolio/freelancer/2.jpg" alt="image" />
-                                        <div className="item-img-overlay"></div>
-                                    </a>
-                                </Link>
-                                <div className="tags">
-                                    <span>  <Link href="/works2/works2-dark">View project details</Link>  </span>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-
-
-
-
-
-                    {/* <div className="gallery full-width">
                         <div
                             className={`${grid === 3
                                 ? "col-lg-4 col-md-6"
@@ -284,16 +209,7 @@ const ProjectBox = ({ grid, hideFilter, filterPosition }) => {
                                 </span>
                             </div>
                         </div>
-                    </div> */}
-
-
-
-
-
-
-
-
-
+                    </div>
                 </div>
             </div>
         </section>

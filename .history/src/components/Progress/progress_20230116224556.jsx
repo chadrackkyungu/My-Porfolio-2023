@@ -45,7 +45,7 @@ const Progress = () => {
           </div>
           <div className="col-lg-3">
             <div className="item text-center">
-              <h5>4. Launching</h5>
+              <h5>Launching</h5>
               <span className="color-font" my-4>Deployment</span>
               <p>
                 This is the final step where the application is tested, deployed to a hosting service and made available to users.

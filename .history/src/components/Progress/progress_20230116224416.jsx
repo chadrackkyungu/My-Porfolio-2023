@@ -19,7 +19,7 @@ const Progress = () => {
           <div className="col-lg-3">
             <div className="item text-center md-mb50">
               <h5>  1. Planning </h5>
-              <span className="color-font" my-4>Research & Ideation</span>
+              <span>Research & Ideation</span>
               <p>
                 In this step i define the scope of the application and create a plan around how to achieve it.
               </p>
@@ -28,7 +28,7 @@ const Progress = () => {
           <div className="col-lg-3">
             <div className="item text-center md-mb50">
               <h5> 2. Designing </h5>
-              <span className="color-font" my-4> Design & Prototyping</span>
+              <span> Design & Prototyping</span>
               <p>
                 This is the step where i create user interfaces and user experience features that are attractive and engaging to both desktop and mobile users
               </p>
@@ -37,7 +37,7 @@ const Progress = () => {
           <div className="col-lg-3">
             <div className="item text-center">
               <h5>3. Developing </h5>
-              <span className="color-font" my-4> Development & Testing  </span>
+              <span> Development & Testing  </span>
               <p>
                 This is the step where i actually build the application according to the plan created in the first step
               </p>
@@ -45,8 +45,8 @@ const Progress = () => {
           </div>
           <div className="col-lg-3">
             <div className="item text-center">
-              <h5>4. Launching</h5>
-              <span className="color-font" my-4>Deployment</span>
+              <h5>Launching</h5>
+              <span>Deployment</span>
               <p>
                 This is the final step where the application is tested, deployed to a hosting service and made available to users.
               </p>

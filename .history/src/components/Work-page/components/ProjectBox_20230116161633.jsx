@@ -41,7 +41,7 @@ const ProjectBox = ({ grid, hideFilter, filterPosition }) => {
                                 : filterPosition === "left"
                                     ? "text-left"
                                     : "text-right"
-                                } col-12  d-flex justify-content-center`}
+                                } col-12`}
                         >
                             <div className="filter">
                                 <span data-filter="*" className="active">
@@ -54,7 +54,13 @@ const ProjectBox = ({ grid, hideFilter, filterPosition }) => {
                         </div>
                     )}
 
+
+
+
+
                     <div className="gallery full-width">
+
+                        {/* <div className="col-md-4 items brand  lg-mr wow fadeInUp" data-wow-delay=".4s"> */}
                         <div className="col-md-4 items brand wow fadeInUp" data-wow-delay=".4s">
                             <div className="item-img">
                                 <div className="cont">
@@ -71,6 +77,14 @@ const ProjectBox = ({ grid, hideFilter, filterPosition }) => {
                                         <div className="item-img-overlay"></div>
                                     </a>
                                 </Link>
+                                {/* <small className="text-muted">Technology used</small> */}
+                                {/* <div className="mt-2 d-flex justify-content-between">
+                  <Button color="info"> <FaReact />  </Button>
+                  <Button color="primary"> <BsBootstrap />  </Button>
+                  <Button color="warning"> <SiNextdotjs />  </Button>
+                  <Button color="success"> <FaNodeJs />  </Button>
+                  <Button color="dark"> <SiExpress />  </Button>
+                </div> */}
                                 <div className="tags">
                                     <span>  <Link href="/works2/works2-dark">View project details</Link> </span>
                                 </div>
@@ -93,6 +107,11 @@ const ProjectBox = ({ grid, hideFilter, filterPosition }) => {
                                         <div className="item-img-overlay"></div>
                                     </a>
                                 </Link>
+                                {/* <small className="text-muted">Technology used</small> */}
+                                {/* <div className="mt-2 d-flex">
+                  <Button color="info"> <FaReact />  </Button>
+                  <Button color="primary mx-2"> <BsBootstrap />  </Button>
+                </div> */}
                                 <div className="tags">
                                     <span>  <Link href="/works2/works2-dark">View project details</Link>  </span>
                                 </div>
@@ -115,6 +134,13 @@ const ProjectBox = ({ grid, hideFilter, filterPosition }) => {
                                         <div className="item-img-overlay"></div>
                                     </a>
                                 </Link>
+                                {/* <small className="text-muted">Technology used</small> */}
+                                {/* <div className="mt-2 d-flex justify-content-between">
+                  <Button color="info"> <FaReact />  </Button>
+                  <Button color="primary"> <BsBootstrap />  </Button>
+                  <Button color="warning"> <FaPhp />  </Button>
+                  <Button color="success"> <FaLaravel />  </Button>
+                </div> */}
                                 <div className="tags">
                                     <span>  <Link href="/works2/works2-dark">View project details</Link>  </span>
                                 </div>

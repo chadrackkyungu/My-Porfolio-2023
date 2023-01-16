@@ -66,9 +66,9 @@ class Testimonials extends React.Component {
 
                     <div className="sec-head  text-center">
                         <h6 className="wow fadeIn" data-wow-delay=".5s">
-                            Testimonials
+                            Skills
                         </h6>
-                        <h5 className="wow color-font "> What clients are saying about me </h5>
+                        <h5 className="wow color-font"> Skill Progress</h5>
                     </div>
 
 

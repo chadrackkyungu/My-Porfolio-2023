@@ -23,7 +23,7 @@ const WorksStyle4 = () => {
                 <h6 className="wow fadeIn" data-wow-delay=".5s">
                   Portfolio
                 </h6>
-                <h5 className="wow color-font"> Checkout some of  my past project </h5>
+                <h5 className="wow color-font"> My project </h5>
               </div>
               {/* <h6 className="wow fadeIn" data-wow-delay=".5s">
                 Portfolio

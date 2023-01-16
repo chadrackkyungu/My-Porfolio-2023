@@ -23,8 +23,6 @@ const SContactForm = ({ noLine }) => {
               <h6 className="wow fadeIn" data-wow-delay=".5s">
                 Contact Me
               </h6>
-
-              <h5 className="wow color-font"> If you want more information drop your email, i will send you a document to read more </h5>
               {/* <h3 className="wow color-font">
                 Let’s Get in Touch And Make Magic Together.
               </h3> */}

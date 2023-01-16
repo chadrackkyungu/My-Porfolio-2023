@@ -11,44 +11,51 @@ const Progress = () => {
                 <span className="left"></span> Working Process
                 <span className="right"></span>
               </h6>
-              <h5 className="color-font"> The 4 Steps to my successful Projects </h5>
+              <h5 className="color-font">5 Step to Complete Projects</h5>
             </div>
           </div>
         </div>
         <div className="row">
           <div className="col-lg-3">
             <div className="item text-center md-mb50">
-              <h5>  1. Planning </h5>
-              <span className="color-font" my-4>Research & Ideation</span>
+              <h5>step 01</h5>
+
               <p>
-                In this step i define the scope of the application and create a plan around how to achieve it.
+                Sorem ipsum dolor sit amet consectetur adipiscing elit seddo
+                eiusmod tempor incididunt
               </p>
             </div>
           </div>
           <div className="col-lg-3">
             <div className="item text-center md-mb50">
-              <h5> 2. Designing </h5>
-              <span className="color-font" my-4> Design & Prototyping</span>
+              <span className="icon pe-7s-user"></span>
+              <h5>Create Account</h5>
+              <span className="step-number">Step 02</span>
               <p>
-                This is the step where i create user interfaces and user experience features that are attractive and engaging to both desktop and mobile users
+                Sorem ipsum dolor sit amet consectetur adipiscing elit seddo
+                eiusmod tempor incididunt
               </p>
             </div>
           </div>
           <div className="col-lg-3">
             <div className="item text-center">
-              <h5>3. Developing </h5>
-              <span className="color-font" my-4> Development & Testing  </span>
+              <span className="icon pe-7s-phone"></span>
+              <h5>Got Results</h5>
+              <span className="step-number">Step 03</span>
               <p>
-                This is the step where i actually build the application according to the plan created in the first step
+                Sorem ipsum dolor sit amet consectetur adipiscing elit seddo
+                eiusmod tempor incididunt
               </p>
             </div>
           </div>
           <div className="col-lg-3">
             <div className="item text-center">
-              <h5>4. Launching</h5>
-              <span className="color-font" my-4>Deployment</span>
+              <span className="icon pe-7s-phone"></span>
+              <h5>Got Results</h5>
+              <span className="step-number">Step 03</span>
               <p>
-                This is the final step where the application is tested, deployed to a hosting service and made available to users.
+                Sorem ipsum dolor sit amet consectetur adipiscing elit seddo
+                eiusmod tempor incididunt
               </p>
             </div>
           </div>

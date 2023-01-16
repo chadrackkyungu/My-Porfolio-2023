@@ -19,15 +19,9 @@ const WorksStyle4 = () => {
         <div className="row justify-content-center">
           <div className="col-lg-8 col-md-10">
             <div className="sec-head  text-center">
-              <div className="sec-head  text-center">
-                <h6 className="wow fadeIn" data-wow-delay=".5s">
-                  Portfolio
-                </h6>
-                <h5 className="wow color-font"> Checkout some of  my past project </h5>
-              </div>
-              {/* <h6 className="wow fadeIn" data-wow-delay=".5s">
+              <h6 className="wow fadeIn" data-wow-delay=".5s">
                 Portfolio
-              </h6> */}
+              </h6>
               {/* <h3 className="wow color-font">
                 Our Recent Web Design & <br /> Some Past Projects.
               </h3> */}
