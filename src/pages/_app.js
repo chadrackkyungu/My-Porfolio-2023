@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Chadrack_code</title>
+        <title>Full-Stack Developer   CK/CODE </title>
         {/* <link rel="icon" href="/img/favicon.ico" /> */}
       </Head>
       <Cursor />

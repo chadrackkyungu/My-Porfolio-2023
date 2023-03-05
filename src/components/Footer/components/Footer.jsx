@@ -49,7 +49,7 @@ const Footer = ({ hideBGCOLOR }) => {
                         <ul className="item">
                             <li> <Link href="/about/about-dark"> About </Link> </li>
                             <li> <Link href="/works2/works2-dark"> My projects </Link> </li>
-                            <li> <Link href="blog-grid/blog-grid-dark"> My blogs </Link> </li>
+                            {/* <li> <Link href="blog-grid/blog-grid-dark"> My blogs </Link> </li> */}
                             <li> <Link href="/contact/contact-dark"> Contact </Link> </li>
                         </ul>
                     </div>
@@ -63,19 +63,19 @@ const Footer = ({ hideBGCOLOR }) => {
                                 {/* <img src={appData.lightLogo} alt="" /> */}
                             </div>
                             <div className="social">
-                                <a href="#0">
+                                <a href="https://twitter.com/chadrack_code">
                                     <i className="fab fa-twitter"></i>
                                 </a>
-                                <a href="#0">
+                                <a href="https://www.instagram.com/chadrack_code/">
                                     <i className="fab fa-instagram"></i>
                                 </a>
-                                <a href="#0">
+                                <a href="https://github.com/chadrackkyungu">
                                     <i className="fab fa-github"></i>
                                 </a>
-                                <a href="#0">
+                                <a href="https://www.facebook.com/chadrack.kyungu.77/">
                                     <i className="fab fa-facebook-f"></i>
                                 </a>
-                                <a href="#0">
+                                <a href="https://www.linkedin.com/in/chadrack-kyungu-aa31051ab/">
                                     <i className="fab fa-linkedin"></i>
                                 </a>
                             </div>

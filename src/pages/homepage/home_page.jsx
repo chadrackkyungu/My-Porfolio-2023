@@ -36,7 +36,7 @@ const Homepage = () => {
       <Services />
       <Projects />
       <Skills />
-      <Testimonials showHead />
+      {/* <Testimonials showHead /> */}
       {/* <Blogs /> */}
       <ContactForm noLine />
       <Footer />
