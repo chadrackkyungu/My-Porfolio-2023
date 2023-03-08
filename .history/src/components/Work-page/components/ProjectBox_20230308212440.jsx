@@ -423,7 +423,7 @@ const ProjectBox = ({ grid, hideFilter, filterPosition }) => {
             <div className="col-md-4 items brand  wow fadeInUp" data-wow-delay=".4s">
               <div className="item-img">
                 <div className="cont">
-                  {/* <h6>Loan Finance </h6> */}
+                  <h6>Loan Finance </h6>
                   {/* <p> Web application </p> */}
                 </div>
                 <div className="mb-2 d-flex justify-content-between">

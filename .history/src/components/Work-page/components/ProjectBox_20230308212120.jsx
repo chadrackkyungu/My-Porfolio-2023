@@ -374,22 +374,22 @@ const ProjectBox = ({ grid, hideFilter, filterPosition }) => {
             <div className="col-md-4 items brand  wow fadeInUp" data-wow-delay=".4s">
               <div className="item-img">
                 <div className="cont">
-                  {/* <h6>Loan Finance </h6> */}
+                  <h6>Loan Finance </h6>
                   {/* <p> Web application </p> */}
                 </div>
                 <div className="mb-2 d-flex justify-content-between">
                   {/* <Badge color="primary"> New </Badge> */}
                   {/* <small className="text-muted">2023-05-09</small> */}
                 </div>
-                <Link href={`https://www.figma.com/file/tAOX593NtUSswnXB4pG9Od/FASPRO?node-id=0%3A1&t=7sfwcw1LR9nFtZAC-1`}>
+                <Link href={`/project-details2/project-details2-dark`}>
                   <a className="rota">
-                    <img src="/img/portfolio/freelancer/figma-5.png" alt="image" />
+                    <img src="/img/portfolio/freelancer/Ritike-1.png" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
                 <div className="tags">
                   {/* <span>  <Link href="/works2/works2-dark">View</Link>  </span> */}
-                  <span>  <Link href="https://www.figma.com/file/tAOX593NtUSswnXB4pG9Od/FASPRO?node-id=0%3A1&t=7sfwcw1LR9nFtZAC-1">View</Link>  </span>
+                  <span>  <Link href="https://ritikefinance.vercel.app/">View</Link>  </span>
                 </div>
               </div>
             </div>
@@ -398,14 +398,14 @@ const ProjectBox = ({ grid, hideFilter, filterPosition }) => {
             <div className="col-md-4 items brand  wow fadeInUp" data-wow-delay=".4s">
               <div className="item-img">
                 <div className="cont">
-                  {/* <h6>Loan Finance </h6> */}
+                  <h6>Loan Finance </h6>
                   {/* <p> Web application </p> */}
                 </div>
                 <div className="mb-2 d-flex justify-content-between">
                   {/* <Badge color="primary"> New </Badge> */}
                   {/* <small className="text-muted">2023-05-09</small> */}
                 </div>
-                <Link href={`https://www.figma.com/file/YW5IgGUhihXWeaL5jxi14P/STEP-2---Admin-View-(Community)?node-id=0%3A1&t=NHKE4dSxpWU2bppX-1`}>
+                <Link href={`/project-details2/project-details2-dark`}>
                   <a className="rota">
                     <img src="/img/portfolio/freelancer/figma-4.png" alt="image" />
                     <div className="item-img-overlay"></div>
@@ -413,35 +413,48 @@ const ProjectBox = ({ grid, hideFilter, filterPosition }) => {
                 </Link>
                 <div className="tags">
                   {/* <span>  <Link href="/works2/works2-dark">View</Link>  </span> */}
-                  <span>  <Link href="https://www.figma.com/file/YW5IgGUhihXWeaL5jxi14P/STEP-2---Admin-View-(Community)?node-id=0%3A1&t=NHKE4dSxpWU2bppX-1">View</Link>  </span>
+                  <span>  <Link href="https://ritikefinance.vercel.app/">View</Link>  </span>
                 </div>
               </div>
             </div>
-
-
-
             <div className="col-md-4 items brand  wow fadeInUp" data-wow-delay=".4s">
               <div className="item-img">
                 <div className="cont">
-                  {/* <h6>Loan Finance </h6> */}
+                  <h6>Loan Finance </h6>
                   {/* <p> Web application </p> */}
                 </div>
                 <div className="mb-2 d-flex justify-content-between">
                   {/* <Badge color="primary"> New </Badge> */}
                   {/* <small className="text-muted">2023-05-09</small> */}
                 </div>
-                <Link href={`https://www.figma.com/file/BVYdFcv6egQ31et7Afdxqf/Showbay24?node-id=0%3A1&t=yr1BEkcv2u6bsm4r-1`}>
+                <Link href={`/project-details2/project-details2-dark`}>
                   <a className="rota">
-                    <img src="/img/portfolio/freelancer/figma-7.png" alt="image" />
+                    <img src="/img/portfolio/freelancer/Ritike-1.png" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
                 <div className="tags">
                   {/* <span>  <Link href="/works2/works2-dark">View</Link>  </span> */}
-                  <span>  <Link href="https://www.figma.com/file/BVYdFcv6egQ31et7Afdxqf/Showbay24?node-id=0%3A1&t=yr1BEkcv2u6bsm4r-1">View</Link>  </span>
+                  <span>  <Link href="https://ritikefinance.vercel.app/">View</Link>  </span>
                 </div>
               </div>
             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
           </div>

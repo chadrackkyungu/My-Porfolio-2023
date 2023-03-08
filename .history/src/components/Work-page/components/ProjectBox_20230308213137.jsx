@@ -310,7 +310,7 @@ const ProjectBox = ({ grid, hideFilter, filterPosition }) => {
                 {/* <Link href={`/project-details2/project-details2-dark`}> */}
                 <Link href={`https://www.figma.com/file/j5QMfF1QxHGYEbUP3fDbeK/SCHOOL-MANAGEMENT?node-id=0%3A1&t=mvdh7SlavgWprZtP-1`}>
                   <a className="rota">
-                    <img src="/img/portfolio/freelancer/figma-1.png" alt="image" />
+                    <img src="/img/portfolio/freelancer/figma-8.png" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>

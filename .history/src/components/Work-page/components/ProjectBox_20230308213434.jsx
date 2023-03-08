@@ -277,14 +277,14 @@ const ProjectBox = ({ grid, hideFilter, filterPosition }) => {
             <div className="col-md-4 items brand  wow fadeInUp" data-wow-delay=".4s">
               <div className="item-img">
                 <div className="cont">
-                  <h6>Loan Finance </h6>
+                  {/* <h6>Loan Finance </h6> */}
                   {/* <p> Web application </p> */}
                 </div>
                 <div className="mb-2 d-flex justify-content-between">
                   {/* <Badge color="primary"> New </Badge> */}
                   {/* <small className="text-muted">2023-05-09</small> */}
                 </div>
-                <Link href={`/project-details2/project-details2-dark`}>
+                <Link href={`https://www.figma.com/file/7aE32zt342JhPe6TPfGOcx/E-COMMERCE?node-id=0-1`}>
                   <a className="rota">
                     <img src="/img/portfolio/freelancer/Ritike-1.png" alt="image" />
                     <div className="item-img-overlay"></div>
@@ -292,10 +292,12 @@ const ProjectBox = ({ grid, hideFilter, filterPosition }) => {
                 </Link>
                 <div className="tags">
                   {/* <span>  <Link href="/works2/works2-dark">View</Link>  </span> */}
-                  <span>  <Link href="https://ritikefinance.vercel.app/">View</Link>  </span>
+                  <span>  <Link href="https://www.figma.com/file/7aE32zt342JhPe6TPfGOcx/E-COMMERCE?node-id=0-1">View</Link>  </span>
                 </div>
               </div>
             </div>
+
+
 
             <div className="col-md-4 items brand  wow fadeInUp" data-wow-delay=".4s">
               <div className="item-img">
@@ -310,7 +312,7 @@ const ProjectBox = ({ grid, hideFilter, filterPosition }) => {
                 {/* <Link href={`/project-details2/project-details2-dark`}> */}
                 <Link href={`https://www.figma.com/file/j5QMfF1QxHGYEbUP3fDbeK/SCHOOL-MANAGEMENT?node-id=0%3A1&t=mvdh7SlavgWprZtP-1`}>
                   <a className="rota">
-                    <img src="/img/portfolio/freelancer/figma-1.png" alt="image" />
+                    <img src="/img/portfolio/freelancer/figma-8.png" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
