@@ -18,7 +18,7 @@ const Team2 = () => {
           <div className="col-lg-3 col-md-6">
             <div className="item cir md-mb50">
               <div className="img">
-                <img src="/img/team/1.jpg" alt="" />
+                <img src="/img/team/jed1.jpg" alt="" />
                 <div id="circle1">
                   <svg
                     version="1.1"
@@ -56,7 +56,7 @@ const Team2 = () => {
           <div className="col-lg-3 col-md-6">
             <div className="item cir md-mb50">
               <div className="img">
-                <img src="/img/team/2.jpg" alt="" />
+                <img src="/img/team/kito1.jpeg" alt="" />
                 <div id="circle2">
                   <svg
                     version="1.1"
@@ -134,7 +134,7 @@ const Team2 = () => {
           <div className="col-lg-3 col-md-6">
             <div className="item cir">
               <div className="img">
-                <img src="/img/team/4.jpg" alt="" />
+                <img src="/img/team/john1.jpeg" alt="" />
                 <div id="circle4">
                   <svg
                     version="1.1"
@@ -157,14 +157,14 @@ const Team2 = () => {
                     <g>
                       <use xlinkHref="#circlePath4" fill="none" />
                       <text fill="#fff">
-                        <textPath xlinkHref="#circlePath2"> Backend Nodejs </textPath>
+                        <textPath xlinkHref="#circlePath2"> JavaScript Developer </textPath>
                       </text>
                     </g>
                   </svg>
                 </div>
                 <div className="info">
-                  <h6>Joseph</h6>
-                  <span> Backend-master </span>
+                  <h6>John Muleka</h6>
+                  <span> Front-end-master </span>
                 </div>
               </div>
             </div>
