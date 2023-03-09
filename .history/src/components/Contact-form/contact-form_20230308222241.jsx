@@ -32,15 +32,11 @@ const ContactForm = () => {
                 onSubmit={async (values) => {
                   await sendMessage(500);
                   alert(JSON.stringify(values, null, 2));
-                  // show message
-
                   messageRef.current.innerText =
                     "Your Message has been successfully sent. I will contact you soon.";
-                  // Reset the values
                   values.name = "";
                   values.email = "";
                   values.message = "";
-                  // clear message
                   setTimeout(() => {
                     messageRef.current.innerText = ''
                   }, 2000)
@@ -126,19 +122,19 @@ const ContactForm = () => {
                 </h6>
               </div>
               <div className="social mt-50">
-                <a href="#0">
+                <a href="https://twitter.com/chadrack_code">
                   <i className="fab fa-twitter"></i>
                 </a>
-                <a href="#0">
+                <a href="https://www.instagram.com/chadrack_code/">
                   <i className="fab fa-instagram"></i>
                 </a>
-                <a href="#0">
+                <a href="https://github.com/chadrackkyungu">
                   <i className="fab fa-github"></i>
                 </a>
-                <a href="#0">
+                <a href="https://www.facebook.com/chadrack.kyungu.77/">
                   <i className="fab fa-facebook-f"></i>
                 </a>
-                <a href="#0">
+                <a href="https://www.linkedin.com/in/chadrack-kyungu-aa31051ab/">
                   <i className="fab fa-linkedin"></i>
                 </a>
               </div>
